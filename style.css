@@ -1,0 +1,1043 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/chica.jpg) ;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+
+}
+
+.text0{
+font-size: 38px;
+text-align: right;
+background-color: rgba(0, 0, 0, 0.329);
+color: white;
+height: 89%;
+width:25%;
+padding: 30px
+}
+
+.menugral ul{
+list-style: none;
+float: right;
+
+}
+
+.menugral ul li{
+display: inline-block;
+padding: 7px;
+margin-right: 5px;
+margin-top: 20px;
+
+}
+
+a{
+color: rgb(247, 226, 226);
+text-decoration: none;
+font-size: 20px;
+
+}
+
+.menugral a:hover {
+text-decoration: underline;
+}
+
+.checknav{
+    font-size: 30px;
+    float: right;
+    line-height: 50px;
+    cursor: pointer;
+    text-shadow: 0 0 5px black;
+    display: none;
+    
+}
+
+#check{
+    display: none;
+}
+
+h1{
+    font-size: 43px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.39);
+    text-shadow: 0 0 5px black;
+    padding: 10px;
+}
+
+h2{ 
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(221, 150, 18, 0.651);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    text-shadow: 0 0 5px black;
+
+}
+
+.claseh2{ 
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(221, 150, 18, 0.651);
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    text-shadow: 0 0 5px black;
+
+}
+
+.sec1{
+    width: 100%;
+    height: 400px;
+
+}
+
+.foto-left{
+    background-image: url(img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width:100%;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+    @keyframes aparecer {
+    
+        0%{
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+        }
+    }
+
+.text-right{
+        text-align: center;
+}
+
+.tit {
+    color: black;
+    text-shadow: 0 0 8px rgba(255, 132, 17, 0.89);
+    
+}
+   /*------SE PARTE DE NUESTRO EQUIPO------------*/
+
+.grilla{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 190px);
+    
+}
+
+
+.item{
+    width: 100%;
+    border: 1px solid rgb(247, 207, 162);
+    
+}
+
+.item1{
+    grid-column: 2/4;
+    grid-row: 1/3;
+   
+}
+
+.item2{
+    background-image: url(img/dogwheel.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.item3{
+    background-image: url(img/carrito1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item4{
+    background-image: url(img/carrito2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item5{
+    background-image: url(img/carrito3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item6{
+    background-image: url(img/chiquito.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item7{
+    background-image: url(img/mangowheelchair.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item8{
+    background-image: url(img/bulldog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item9{
+    background-image: url(img/Dog-Wheelchair_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*------------Tambien podes ser parte------------*/
+
+
+.contenedor{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.cuadrado{
+    height: 250px;
+    width: 300px;
+    border: 2px solid rgb(20, 17, 17);
+}
+
+.c1{
+    background-image: url(multi/dona.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c2{
+    background-image: url(multi/portada2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.c3{
+    background-image: url(multi/cosas-donar-refugio-animales-portada-668x400x80xX-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item:hover {
+    transform: scale(1.5) }
+
+.cuadrado:hover {
+    transform: rotate(20deg);
+}
+
+.text2{
+    font-size: 23px;
+    text-shadow: 0 0 8px rgb(216, 116, 16);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 100%;
+    padding: 40px;
+    color:white;
+}
+
+.text3{
+    font-size: 18px;
+    text-shadow: 0 0 8px rgb(216, 116, 16);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 100%;
+    padding: 40px;
+    color:white;
+}
+
+.text4{
+    font-size: 18px;
+    text-shadow: 0 0 8px rgb(216, 116, 16);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 100%;
+    padding: 40px;
+    color:white;
+}
+
+ /* ---------FOOTER----------- */
+footer{ 
+    background-color: rgba(214, 114, 20, 0.856);
+    background-image: url(img/perroygato-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    letter-spacing: 1px;
+    height: 100%;
+    width: 100%;
+    color: rgb(20, 20, 19);
+    padding:5px;
+     
+}
+
+
+.derechos1{
+   
+    font-size: 30px;
+    height: 20px;
+    width: 400px;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: 0 0 3px black;
+     
+ }
+ 
+
+ .color{
+    color: rgb(228, 237, 245);
+    text-shadow: 0 0 2px rgb(235, 220, 220);
+    
+}
+
+
+.redes{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.redes i:hover{
+    color: antiquewhite;
+}
+
+.subir{ 
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: rgba(241, 151, 15, 0.945);
+    font-size: 30px;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+       /*---------- MI CUENTA------------ */
+
+.regis{
+    background-image: url(./img/people-love-pets-2000-22170c85521b451b99a003dd30609357.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+#inicio{
+    background-color: rgba(53, 42, 34, 0.295);
+    height: 70%;
+    width: 30%;
+    float: right;
+    font-size: 25px;
+    border: 3px solid rgba(17, 13, 13, 0.432);
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.iniciarr{
+    color:rgb(238, 106, 18);
+    text-shadow: 0 2px 3px rgba(238, 231, 231, 0.822);
+    padding: 15px;
+}
+
+.olvidar:hover{
+    color: rgba(241, 187, 143, 0.945);
+}
+
+.reg:hover{
+    color: rgba(241, 187, 143, 0.945);
+}
+
+.google:hover{
+    color: rgba(247, 237, 229, 0.678);
+}
+
+#mail0{
+    
+    font-size: 18px;
+    width: 60%;
+    
+}
+
+#contraseña{
+    font-size: 18px;
+    width: 60%;
+    
+}
+
+.olvidar{
+    color: rgb(255, 246, 242);
+    font-size: 19px;
+    margin-top: 20px;
+    text-shadow: 0 0 10px black;
+    
+}
+
+.google{
+    text-shadow: 0 0 10px white;
+}
+
+.iconog{
+    height: 4rem;
+    width: 3rem;
+    padding-top: 15px;
+}
+
+.reg{
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 23px;
+}
+
+.registrar{
+    font-size: 21px;
+}
+
+
+/*--------NUESTROS CARRITOS--------*/
+
+
+.dogcart{
+
+    padding: 15px;
+ }
+
+#beneficios{
+
+    height: 300px;
+    width:700px ; 
+    margin-right: 50px;
+    margin-top: 30px;
+    float: right; 
+    font-size: 20px;
+
+} 
+
+.benef{
+    background-color:rgba(238, 223, 203, 0.692);
+    padding: 15px;
+    border: 2px solid black;
+    margin-bottom: 300px;
+
+}
+    
+
+.benef2{
+    
+    margin-left: 50px;
+    padding: 25px;
+}
+
+.material{
+    background-color:rgba(238, 223, 203, 0.692);
+    margin-left: 50px;
+    padding: 25px;
+    border: 2px solid black
+
+}
+
+.material2{
+    
+    
+    margin-left: 50px;
+    padding: 25px;
+}
+
+ul{
+    list-style-type: circle;
+    
+}  
+
+
+/* --------CAMBIA LA VIDA DE ELLOS-----------*/
+
+
+.mascota{
+    padding: 25px;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    animation-duration: 1s;
+    animation-name: apartit;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+    @keyframes apartit {
+        0%{
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+        }
+    }
+
+
+.formu1{
+    margin-left: 450px;
+    display: inline-block;   
+}
+
+.pets{
+    margin-left: 100px;
+    height: 300px;
+    width: 400px;
+}
+.tam{
+    margin-bottom: 60px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.peso{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.photo{
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+
+
+.video{
+    height: 80%;
+    width: 55%;
+    margin-left: 300px;
+    margin-top: 100px;
+    border: 3px solid rgba(255, 166, 0, 0.747);
+}
+
+.o1{
+    list-style-type: decimal;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.enviar1{
+    margin: 50px 20px 50px;
+    float: right;    
+}
+
+.pasos2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-shadow: 1px 2px orange;
+}
+
+.ordenada{
+    margin-left: 350px;
+    margin-bottom: 60px;   
+}
+
+/* -----------ADOPCION ---------------*/
+
+.flexdog{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px; 
+}
+
+.descpets{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.descpets2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+}
+
+.adop1{
+    height: 200px;
+    width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.945);
+}
+
+.flexcat{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.adop2{
+    height: 200px;
+    width: 250px;
+    border: 2px solid rgba(0, 0, 0, 0.945);
+    
+}
+
+.adop2:hover {
+    transform: scale(1.5) }
+
+.adop1:hover {
+        transform: scale(1.5) }
+
+.req{
+    background-image: url(./img/perritos.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 0 0 10px rgba(233, 114, 16, 0.815);
+
+    height: 25rem;
+    width: 100%;  
+}
+
+.requisitos{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(7, 7, 6, 0.356);
+}
+
+.listareq{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(7, 7, 6, 0.356);
+    padding-top: 40px;
+    height: 86%;
+}
+
+
+/*--------- NOSOTROS ---------*/
+
+.foto-text{
+    background-image: url(./img/nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+}
+
+.contein{
+    font-size: 25px;
+    height: 70%;
+    width: 32%;
+    padding: 5px;
+    letter-spacing: 1px;
+    color: rgba(241, 241, 220, 0.966);
+    text-shadow: 1px 1px 5px rgba(235, 165, 59, 0.747);
+    background-color: rgba(5, 5, 5, 0.308);
+    border: 2px solid wheat;
+    border-radius: 10px;
+    text-align:end;
+    float: right;
+}
+   
+.supertext{
+    margin-top: 30px;
+    margin-right: 35px;
+}
+
+@media (min-width:320px) and (max-width:650px){
+    .contein{
+        width: 90%;
+        height: 80%;
+}
+    .supertext{
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width:650px) and (max-width:900px){
+    .contein{
+        width: 50%;
+        height: 80%;
+}
+    .supertext{
+        font-size: 18px;
+        padding-left: 35px;
+    }
+}
+
+@media (min-width:900px) and (max-width:1326px){
+    .contein{
+        width: 50%;
+        height: 90%;
+}
+    .supertext{
+        font-size: 20px;
+        padding-left: 35px;
+    }
+}
+
+.comunic{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(230, 148, 25, 0.904);
+}
+
+.formm{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    font-size: 20px;
+}
+
+#mail{
+    width: 10%;
+    font-size: 15px;
+}
+
+@media (min-width:360px) and (max-width:1254px){
+    #mail{
+        width: 30%;
+    }
+}
+
+iframe{
+    padding: 70px;
+    width: 100%;
+    
+}
+
+/*  ------- Media Queries --------*/
+/* ------ MI CUENTA ----*/
+
+@media  (max-width:800px){
+    .regis{
+        background-position: center;
+    }
+    #inicio{
+        width: 80%;
+        height: 90%;
+        font-size: 15px;
+        float: left;
+        margin-left: 30px;
+    }
+    .iniciarr{
+        font-size: 25px;
+    }
+}
+
+@media  (min-width:801px) and (max-width:1326px){
+    #inicio{
+        width: 30%;
+        height: 90%;
+        font-size: 15px;
+        float: right;
+        margin-left: 30px;
+    }
+    .iniciarr{
+        font-size: 25px;
+    }
+}
+
+/*Ellos te esperan*/
+
+@media (max-width:1326px) {
+    .text0{
+        font-size: 30px;
+        height: 85%;
+    }
+}
+
+@media (max-width:1150px) {
+    .text0{
+        font-size: 29px;
+        height: 85%;
+    }
+}
+
+@media (max-width:978px) {
+    .text0{
+        font-size: 25px;
+        height: 85%;
+    }
+}
+
+@media (max-width:874px) {
+    .text0{
+        font-size: 20px;
+        height: 85%;
+    }
+}
+
+@media (max-width:656px) {
+    .text0{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .menugral ul li a { font-size: 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+        .checknav{ 
+            display: block;
+            line-height: 50px;
+            padding: 14px;
+        }
+
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 80px;
+            left: -100%;
+            
+           
+        }
+
+        .menugral ul li{
+            display: block;
+            margin: 50px o;
+            line-height: 30px;
+            text-align: center;
+            
+        }
+
+        .menugral ul li a{
+            font-size: 30px;
+            color: black;
+            text-shadow: 0 0 5px rgb(245, 235, 235);
+    
+        }
+
+    
+        #check:checked ~ ul {
+            left: 0;
+        }
+        nav a:hover, li a:active {
+            color: orange;
+        }
+         
+}
+
+@media (max-width: 500px) {
+    .text-right {
+        font-size: 17px;
+        padding: 10px;
+    }
+    .tit{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 500px)
+{
+    .foto-left{
+        height: 400px;
+        width: 250px;
+        float: left;
+        
+    }
+
+    .text-right {
+        font-size: 17px;
+        padding: 80px 20px 80px 50px;
+    }
+
+    .tit{
+        font-size: 20px;
+    
+    }
+}
+
+@media (min-width: 700px)
+{
+    .foto-left{
+        height: 400px;
+        width: 50%;
+    }
+
+    .text1{
+        letter-spacing: 1px;
+        font-size: 20px;
+        
+    }
+
+    .tit{
+        letter-spacing: 1px;
+        font-size: 25px;
+        padding: 100px 50px 100px 50px;
+    }
+}
+  /* Concienticemos la adopcion*/
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1250px){
+    .grilla{
+        grid-template-columns: repeat(4, 1fr, 200px);
+        grid-template-rows: repeat(4, 150px);
+        height: 28rem;
+        background-color: rgba(255, 166, 0, 0.445);
+    
+    }
+
+    .video1{
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+@media (max-width: 450px){
+
+    .grilla{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 200px);
+        height: 60rem;
+
+    }
+
+    .video1{
+        width: 100%;
+        height: 100%;
+       
+    }
+
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .item:hover {
+        transform: scale(1.5) }
+    
+    .cuadrado:hover {
+        transform: rotate(20deg);
+    }
+}
+
+/*Tambien podes ser parte*/
+
+@media (max-width:1099px) {
+    
+    .contenedor{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+}
+
+    .cuadrado{
+        height: 300px;
+        width: 300px;}
+    
+    .text2{
+        font-size: 20px;
+    }
+
+    .text3{
+        font-size: 12px;
+    }
+
+    .text4{
+        font-size: 15px;}
+    }
+    .item:hover {
+        transform: scale(1.5) }
+    
+    .cuadrado:hover {
+        transform: rotate(20deg);
+    }
+
+
+    /* ------ADOPCIONES -------*/
+
+    @media (max-width:560px) {
+        .listareq{
+        font-size: 20px;
+        }
+}
+
+/*footer*/
+
+@media (max-width:987px){
+    .derechos1{
+        font-size: 18px;
+        width: 50%;
+        text-align: left;
+        margin-top: 0px;
+        text-shadow: 0 0 3px black;
+        padding: 10px;
+    }
+
+    footer{
+        width: 100%;
+        height: 31vh;
+        overflow: hidden;
+        background-size: 160px;
+    }
+
+    .redes{
+        font-size: 25px;
+        margin: 100px 100px;
+    }
+    
+    
+}
+
